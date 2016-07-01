@@ -23,6 +23,6 @@
   "files": [
     "./dev/app.component.ts",
     "./dev/boot.ts",
-    "./dev/puzzle/puzzle.component.ts"
+    "./dev/property-binding.component.ts"
   ]
 }
