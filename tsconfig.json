@@ -22,7 +22,8 @@
   },
   "files": [
     "./dev/app.component.ts",
+    "./dev/attribute-directives.component.ts",
     "./dev/boot.ts",
-    "./dev/property-binding.component.ts"
+    "./dev/highlight.directive.ts"
   ]
 }
