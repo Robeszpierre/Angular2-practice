@@ -1,17 +1,17 @@
 import {Component} from '@angular/core';
-import {ShoppingListComponent} from './shopping-list/shopping-list.component';
+import {Component1Component} from './component1.component';
+import {Component2Component} from './component2.component';
 
 @Component({
     selector: 'my-app',
     template: `
-    <header>
-        <div class="brand">Shopping List</div>
-    </header>
-    <div class="main">
-        <shopping-list></shopping-list>
-    </div>
+        <h1>First compnent</h1>
+        <component-1></component-1>
+        <br/>
+        <h1>Second component</h1>
+        <component-2></component-2>
     `,
-    directives: [ShoppingListComponent]
+    directives: [Component1Component, Component2Component]
 })
 export class AppComponent {
 
