@@ -23,10 +23,6 @@
   "files": [
     "./dev/app.component.ts",
     "./dev/boot.ts",
-    "./dev/component1.component.ts",
-    "./dev/component2.component.ts",
-    "./dev/services/calculator.service.ts",
-    "./dev/services/data.service.ts",
-    "./dev/services/logging.service.ts"
+    "./dev/template-driven-form.component.ts"
   ]
 }
